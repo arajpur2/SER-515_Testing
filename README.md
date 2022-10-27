@@ -1,6 +1,6 @@
 # SER-515_Testing
 
-### Assignment - For the given problem, develop the solution and write unit tests using JUnit 5
+### Assignment - For the given problem, develop the solution and write unit tests using JUnit
 
 ### The Problem Statement -
 

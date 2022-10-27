@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efbf748f-5d62-4159-a0c7-4d5da80eb8cc" name="Changes" comment="setting up gradle in intellij">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Urinals.java" afterDir="false" />
+    <list default="true" id="efbf748f-5d62-4159-a0c7-4d5da80eb8cc" name="Changes" comment="Problem statement added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666913651870</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Problem statement added">
+      <created>1666915026271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666915026271</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,6 +91,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="setting up gradle in intellij" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting up gradle in intellij" />
+    <MESSAGE value="Problem statement added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem statement added" />
   </component>
 </project>
