@@ -29,8 +29,7 @@ public class Urinals {
 
         String[] lines = fileContent.split("\\r?\\n");
         if(lines.length == 0){
-            String[] str = {"FILE IS EMPTY!"};
-            return str;
+            System.out.println("FILE IS EMPTY!");
         }
 
         return lines;
