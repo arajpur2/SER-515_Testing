@@ -97,16 +97,19 @@ public class Urinals {
                         return -1;
                     if(inputString.charAt(i) == '0' && inputString.charAt(i+1) != '1'){
                         urinalCounter++;
+                        i++;
                     }
                 } else if (i==(inputString.length()-1)){
                     if(inputString.charAt(i) == '0' && inputString.charAt(i-1) != '1'){
                         urinalCounter++;
+                        i++;
                     }
                 } else {
                     if(inputString.charAt(i) == '1' && inputString.charAt(i+1) == '1')
                         return -1;
                     if(inputString.charAt(i) == '0' && inputString.charAt(i+1) != '1' && inputString.charAt(i-1) != '1') {
                         urinalCounter++;
+                        i++;
                     }
                 }
 
