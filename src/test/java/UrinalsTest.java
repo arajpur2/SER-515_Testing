@@ -25,6 +25,7 @@ class UrinalsTest {
         assertEquals(-1, urinals.countUrinals("111001"), "Alok Rajpurohit, urinal count test case 3 successfully passed");
         assertEquals(2, urinals.countUrinals("0000"), "Alok Rajpurohit, urinal count test case 4 successfully passed");
         assertEquals(1, urinals.countUrinals("0"), "Alok Rajpurohit, urinal count test case 5 successfully passed");
+        assertEquals(-1,urinals.countUrinals("000001111110000000001000001"), "Alok Rajpurohit,Test case 6 successfully passed");
     }
 
     @Test
