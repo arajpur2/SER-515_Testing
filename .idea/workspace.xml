@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efbf748f-5d62-4159-a0c7-4d5da80eb8cc" name="Changes" comment="count urinals test cases passed successfully" />
+    <list default="true" id="efbf748f-5d62-4159-a0c7-4d5da80eb8cc" name="Changes" comment="test case to check other digits in the input string created">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Urinals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Urinals.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +54,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UrinalsTest.countUrinals">
+  <component name="RunManager" selected="Application.Urinals">
     <configuration name="Urinals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Urinals" />
       <module name="SER-515_Testing.main" />
@@ -148,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666938005081</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test case to check length constraints of the input string successfully passed">
+      <created>1666938244146</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666938244146</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test case to check other digits in the input string created">
+      <created>1666938544981</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666938544981</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +185,8 @@
     <MESSAGE value="code version 1" />
     <MESSAGE value="count urinals test cases created" />
     <MESSAGE value="count urinals test cases passed successfully" />
-    <option name="LAST_COMMIT_MESSAGE" value="count urinals test cases passed successfully" />
+    <MESSAGE value="test case to check length constraints of the input string successfully passed" />
+    <MESSAGE value="test case to check other digits in the input string created" />
+    <option name="LAST_COMMIT_MESSAGE" value="test case to check other digits in the input string created" />
   </component>
 </project>

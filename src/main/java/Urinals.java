@@ -80,7 +80,11 @@ public class Urinals {
             return -1;
         } else {
 
-
+            for(int i = 0; i<inputString.length(); i++) {
+                if (inputString.charAt(i) != '1' && inputString.charAt(i) != '0') {
+                    return -1;
+                }
+            }
 
             for(int i = 0; i<inputString.length(); i++){
                 if(inputString.length() == 1){
