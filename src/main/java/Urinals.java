@@ -22,13 +22,16 @@ public class Urinals {
         try {
             fileContent = Files.readString(filePath);
         } catch (FileNotFoundException e){
-            String[] str = {"File does not exist"};
-            return str;
+            System.out.println("FILE DOES NOT EXIST!");
         } catch (IOException e) {
             System.out.println("WARNING: DATABASE READ ERROR");
         }
 
         String[] lines = fileContent.split("\\r?\\n");
+        if(lines.length == 0){
+            String[] str = {"FILE IS EMPTY!"};
+            return str;
+        }
 
         return lines;
     }
