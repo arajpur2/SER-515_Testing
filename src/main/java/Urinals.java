@@ -21,6 +21,9 @@ public class Urinals {
 
         try {
             fileContent = Files.readString(filePath);
+        } catch (FileNotFoundException e){
+            String[] str = {"File does not exist"};
+            return str;
         } catch (IOException e) {
             System.out.println("WARNING: DATABASE READ ERROR");
         }

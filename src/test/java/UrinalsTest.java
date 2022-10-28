@@ -8,7 +8,7 @@ class UrinalsTest {
 
     @Test
     void readFile() {
-        assertEquals("File Exists",urinals.readFile(), "Alok Rajpurohit, urinal count test case 10 successfully passed");
+        assertEquals("File does not exist",urinals.readFile(), "Alok Rajpurohit, urinal count test case 10 successfully passed");
         assertEquals("File not Exist -1",urinals.readFile(),"Alok Rajpurohit, urinal count test case 11 successfully passed");
         assertEquals("File is Empty -1",urinals.readFile(),"Alok Rajpurohit, urinal count test case 12 successfully passed");
     }
