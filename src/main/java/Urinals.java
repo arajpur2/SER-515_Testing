@@ -59,7 +59,7 @@ public class Urinals {
                 try {
                     System.out.println("PLEASE ENTER THE URINAL REPRESENTATION STRING");
                     Scanner sc2 = new Scanner(System.in);
-                    inputString[0] = sc2.nextLong();
+                    inputString[0] = sc2.nextLine();
                 } catch (Exception e){
                     System.out.println("Wrong type of input!");
                 }
