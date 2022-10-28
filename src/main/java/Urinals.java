@@ -76,9 +76,7 @@ public class Urinals {
 
     public int countUrinals(String inputString){
         int urinalCounter = 0;
-        if(inputString.length() > 20){
-            return -1;
-        } else {
+
 
             for(int i = 0; i<inputString.length(); i++) {
                 if (inputString.charAt(i) != '1' && inputString.charAt(i) != '0') {
@@ -99,26 +97,23 @@ public class Urinals {
                         return -1;
                     if(inputString.charAt(i) == '0' && inputString.charAt(i+1) != '1'){
                         urinalCounter++;
-                        i++;
                     }
                 } else if (i==(inputString.length()-1)){
                     if(inputString.charAt(i) == '0' && inputString.charAt(i-1) != '1'){
                         urinalCounter++;
-                        i++;
                     }
                 } else {
                     if(inputString.charAt(i) == '1' && inputString.charAt(i+1) == '1')
                         return -1;
                     if(inputString.charAt(i) == '0' && inputString.charAt(i+1) != '1' && inputString.charAt(i-1) != '1') {
                         urinalCounter++;
-                        i++;
                     }
                 }
 
             }
             return urinalCounter;
         }
-    }
+
 
     public static void main(String[] args){
         int choice = 0;

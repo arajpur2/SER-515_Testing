@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efbf748f-5d62-4159-a0c7-4d5da80eb8cc" name="Changes" comment="Problem statement added">
-      <change afterPath="$PROJECT_DIR$/src/main/data/urinal.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UrinalsTest.java" afterDir="false" />
+    <list default="true" id="efbf748f-5d62-4159-a0c7-4d5da80eb8cc" name="Changes" comment="code version 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Urinals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Urinals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrinalsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UrinalsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.UrinalsTest.countUrinals">
     <configuration name="Urinals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Urinals" />
       <module name="SER-515_Testing.main" />
@@ -65,8 +63,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UrinalsTest.countUrinals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;UrinalsTest.countUrinals&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UrinalsTest.countUrinals" />
         <item itemvalue="Application.Urinals" />
       </list>
     </recent_temporary>
@@ -108,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666915093725</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="code version 1">
+      <created>1666936304779</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666936304779</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +155,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="setting up gradle in intellij" />
     <MESSAGE value="Problem statement added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem statement added" />
+    <MESSAGE value="code version 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="code version 1" />
   </component>
 </project>
