@@ -8,14 +8,16 @@ class UrinalsTest {
 
     @Test
     void readFile() {
+        assertEquals("File Exists",urinals.readFile(), "Alok Rajpurohit, urinal count test case 10 successfully passed");
+        assertEquals("File not Exist -1",urinals.readFile(),"Alok Rajpurohit, urinal count test case 11 successfully passed");
+        assertEquals("File is Empty -1",urinals.readFile(),"Alok Rajpurohit, urinal count test case 12 successfully passed");
     }
 
     @Test
     void writeFile() {
-    }
-
-    @Test
-    void getInputString() {
+        assertEquals("File Exists" ,urinals.writeFile(1, 1), "Alok Rajpurohit, urinal count test case 13 successfully passed");
+        assertEquals("File not Exist -1",urinals.writeFile(1, 2),"Alok Rajpurohit, urinal count test case 14 successfully passed");
+        assertEquals("File is Empty -1",urinals.writeFile(0, 2),"Alok Rajpurohit, urinal count test case 15 successfully passed");
     }
 
     @Test
@@ -29,9 +31,5 @@ class UrinalsTest {
         assertEquals(-1, urinals.countUrinals("001100510"), "Alok Rajpurohit, urinal count test case 7 successfully passed");
         assertEquals(-1, urinals.countUrinals("001100f10"), "Alok Rajpurohit, urinal count test case 8 successfully passed");
         assertEquals(0, urinals.countUrinals("000100100"), "Alok Rajpurohit, urinal count test case 9 successfully passed");
-    }
-
-    @Test
-    void main() {
     }
 }

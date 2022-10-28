@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efbf748f-5d62-4159-a0c7-4d5da80eb8cc" name="Changes" comment="test case to check other digits in the input string created">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Urinals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Urinals.java" afterDir="false" />
+    <list default="true" id="efbf748f-5d62-4159-a0c7-4d5da80eb8cc" name="Changes" comment="test case to check input string with preceding zeroes in integer value successfully passed">
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrinalsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UrinalsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +164,35 @@
       <option name="project" value="LOCAL" />
       <updated>1666938544981</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test case to check if any other digits exist in the input String successfully passed">
+      <created>1666938591672</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666938591672</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test case to check if any letters exist in the input String">
+      <created>1666938740336</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666938740336</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test case to check if any letters exist in the input String successfully passed">
+      <created>1666938762245</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666938762245</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test case to check input string with preceding zeroes in integer value successfully passed">
+      <created>1666938838121</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666938838121</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +215,10 @@
     <MESSAGE value="count urinals test cases passed successfully" />
     <MESSAGE value="test case to check length constraints of the input string successfully passed" />
     <MESSAGE value="test case to check other digits in the input string created" />
-    <option name="LAST_COMMIT_MESSAGE" value="test case to check other digits in the input string created" />
+    <MESSAGE value="test case to check if any other digits exist in the input String successfully passed" />
+    <MESSAGE value="test case to check if any letters exist in the input String" />
+    <MESSAGE value="test case to check if any letters exist in the input String successfully passed" />
+    <MESSAGE value="test case to check input string with preceding zeroes in integer value successfully passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="test case to check input string with preceding zeroes in integer value successfully passed" />
   </component>
 </project>
